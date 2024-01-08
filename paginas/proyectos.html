@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HS Arquitectura | Proyectos</title>
     <link rel="shortcut icon" href="../imagenes/LOGO.JPG" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="../estilos/estilos.css">
 </head>
 
@@ -14,23 +16,24 @@
         <div>
             <img class="imagenLogo" src="../imagenes/LOGO.JPG" alt="Logo HS">
         </div>
-        <ul class="listaMenu">
-            <li>
-                <a href="../index.html">Home</a>
-            </li>
-            <li>
-                <a href="./estudio.html">Estudio</a>
-            </li>
-            <li>
-                <a href="#">Proyectos</a>
-            </li>
-            <li>
-                <a href="./mobiliario.html">Mobiliario</a>
-            </li>
-            <li>
-                <a href="./contacto.html">Contacto</a>
-            </li>
-        </ul>
+        <nav>
+            <ul class="nav justify-content-end listaMenu">
+                <li class="nav-item">
+                    <a class="menuLink nav-link" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="menuLink nav-link" href="../paginas/estudio.html">Estudio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="menuLink nav-link" href="#">Proyectos</a>
+                </li>
+                <li class="menuLink nav-item">
+                    <a class="menuLink nav-link" href="../paginas/mobiliario.html">Mobiliario</a>
+                </li>
+                <li class="nav-item">
+                    <a class="menuLink nav-link" href="../paginas/contacto.html">Contactos</a>
+                </li>
+            </ul>
         </nav>
     </header>
     <main>
@@ -38,65 +41,120 @@
             <h1 class="tituloPagina">
                 PROYECTOS
             </h1>
-            <div class="cajaGaleria">
-                <div>
-                    <img class="imagenLocal" src="../imagenes/LOCAL 01.JPG" alt="Local Venado Tuerto, Pampero">
-                    <ul class="cajaImagen">
-                        <li class="comentarioSuperiorImagen"> LOCAL PAMPERO</li>
-                        <li class="comentarioInferiorImagen"> VENADO TUERTO, SANTA FE. ARGENTINA 2022.</li>
-                    </ul>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12 col-md-6 col-lg-3 contenedorGaleria">
+                        <img src="../imagenes/LOCAL 01.JPG" alt="Local Venado Tuerto, Pampero">
+                        <ul class="comentariosImagenes">
+                            <li class="comentarioSuperiorImagen"> LOCAL PAMPERO</li>
+                            <li class="comentarioInferiorImagen"> VENADO TUERTO, SANTA FE. ARGENTINA 2022.</li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-lg-3 contenedorGaleria">
+                        <img class="imagenLocal" src="../imagenes/LOCAL 02.JPG" alt="Local Areco, Pampero">
+                        <ul class="comentariosImagenes">
+                            <li class="comentarioSuperiorImagen"> LOCAL PAMPERO</li>
+                            <li class="comentarioInferiorImagen"> EL TREBOL, SANTA FÉ. ARGENTINA 2022.</li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-lg-3 contenedorGaleria">
+                        <img class="imagenLocal" src="../imagenes/LOCAL 03.jpg" alt="Local Concepción Tucuman, Pampero">
+                        <ul class="comentariosImagenes">
+                            <li class="comentarioSuperiorImagen"> LOCAL PAMPERO</li>
+                            <li class="comentarioInferiorImagen"> TRENQUE LAUQUEN, BUENOS AIRES. ARGENTINA 2023.</li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-lg-3 contenedorGaleria">
+                        <img class="imagenLocal" src="../imagenes/LOCAL 04.JPG" alt="Local Tandil, Pampero">
+                        <ul class="comentariosImagenes">
+                            <li class="comentarioSuperiorImagen"> LOCAL PAMPERO</li>
+                            <li class="comentarioInferiorImagen"> CONCEPCIÓN, TUCUMÁN. ARGENTINA 2022.</li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-lg-3 contenedorGaleria">
+                        <img class="imagenLocal" src="../imagenes/LOCAL 05.jpg" alt="Local La Cumbre, Pampero">
+                        <ul class="comentariosImagenes">
+                            <li class="comentarioSuperiorImagen"> LOCAL PAMPERO</li>
+                            <li class="comentarioInferiorImagen"> LA CUMBRE, CORDOBA. ARGENTINA 2023.</li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-lg-3 contenedorGaleria">
+                        <img class="imagenLocal" src="../imagenes/LOCAL 06.jpg"
+                            alt="Local San Martin de Los Andes, Pampero">
+                        <ul class="comentariosImagenes">
+                            <li class="comentarioSuperiorImagen"> LOCAL PAMPERO</li>
+                            <li class="comentarioInferiorImagen"> SAN MARTIN DE LOS ANDES, NEUQUEN. ARGENTINA 2020.</li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-lg-3 contenedorGaleria">
+                        <img class="imagenLocal" src="../imagenes/LOCAL 07.jpg" alt="Local San Luis, Pampero">
+                        <ul class="comentariosImagenes">
+                            <li class="comentarioSuperiorImagen"> LOCAL PAMPERO</li>
+                            <li class="comentarioInferiorImagen"> MERLO, SAN LUIS. ARGENTINA 2022.</li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-lg-3 contenedorGaleria">
+                        <img class="imagenLocal" src="../imagenes/LOCAL 08.jpg" alt="Local Marcos Juarez, Pampero">
+                        <ul class="comentariosImagenes">
+                            <li class="comentarioSuperiorImagen"> LOCAL PAMPERO</li>
+                            <li class="comentarioInferiorImagen"> MARCOS JUAREZ, CORDOBA. ARGENTINA 2023.</li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-lg-3 contenedorGaleria">
+                        <img class="imagenLocal" src="../imagenes/LOCAL 09.jpg" alt="Local Tandil">
+                        <ul class="comentariosImagenes">
+                            <li class="comentarioSuperiorImagen"> LOCAL PAMPERO</li>
+                            <li class="comentarioInferiorImagen"> TANDIL, BUENOS AIRES. ARGENTINA 2022.</li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-lg-3 contenedorGaleria">
+                        <img class="imagenLocal" src="../imagenes/LOCAL 10.JPG" alt="Local Calafate">
+                        <ul class="comentariosImagenes">
+                            <li class="comentarioSuperiorImagen"> LOCAL PAMPERO</li>
+                            <li class="comentarioInferiorImagen"> EL CALAFATE, SANTA CRUZ. ARGENTINA 2021.</li>
+                        </ul>
+                    </div>
                 </div>
-                <div>
-                    <img class="imagenLocal" src="../imagenes/LOCAL 02.JPG" alt="Local Areco, Pampero">
-                    <ul class="cajaImagen">
-                        <li class="comentarioSuperiorImagen"> LOCAL PAMPERO</li>
-                        <li class="comentarioInferiorImagen"> EL TREBOL, SANTA FÉ. ARGENTINA 2022.</li>
-                    </ul>
-                </div>
-                <div>
-                    <img class="imagenLocal" src="../imagenes/LOCAL 03.jpg" alt="Local Concepción Tucuman, Pampero">
-                    <ul class="cajaImagen">
-                        <li class="comentarioSuperiorImagen"> LOCAL PAMPERO</li>
-                        <li class="comentarioInferiorImagen"> TRENQUE LAUQUEN, BUENOS AIRES. ARGENTINA 2023.</li>
-                    </ul>
-                </div>
-                <div>
-                    <img class="imagenLocal" src="../imagenes/LOCAL 04.JPG" alt="Local Tandil, Pampero">
-                    <ul class="cajaImagen">
-                        <li class="comentarioSuperiorImagen"> LOCAL PAMPERO</li>
-                        <li class="comentarioInferiorImagen"> CONCEPCIÓN, TUCUMÁN. ARGENTINA 2022.</li>
-                    </ul>
-                </div>
-                <img class="imagenLocal" src="../imagenes/LOCAL 05.jpg" alt="Local Recoleta, Pampero">
-                <img class="imagenLocal" src="../imagenes/LOCAL 06.jpg" alt="Local San Martin de Los Andes, Pampero">
-                <img class="imagenLocal" src="../imagenes/LOCAL 07.jpg" alt="Local San Luis, Pampero">
-                <img class="imagenLocal" src="../imagenes/LOCAL 08.jpg" alt="Local Marcos Juarez, Pampero">
-                <img class="imagenLocal" src="../imagenes/LOCAL 09.jpg" alt="Local Tandil">
-                <img class="imagenLocal" src="../imagenes/LOCAL 10.JPG" alt="Local Calafate">
             </div>
         </section>
     </main>
+
     <!-- FOOTER -->
-    <footer class="footer">
-        <img class="footerLogo" src="../imagenes/logo blanco.jpg" alt="Logo HS">
-        <h3 class="footerContactanos">
-            Contactanos
-        </h3>
-        <div>
-            <ul>
-                <li class="footerLista">
-                    +541163043869
-                </li>
-                <li class="footerLista">
-                    arq.schweizer@gmail.com
-                </li>
-                <li class="footerLista">
-                    Tomas A. Le Breton 4370
-                </li>
-            </ul>
-        </div>
+    <footer class="Footer">
+        <section>
+            <div class="contenedorFooter">
+                <div>
+                    <a href="../index.html"><img class="footerLogo" src="../imagenes/logo blanco.jpg" alt="Logo HS"></a>
+                </div>
+                <div>
+                    <a class="menuFooter" href="../index.html">Home</a>
+                    <a class="menuFooter" href="../paginas/estudio.html">Estudio</a>
+                    <a class="menuFooter" href="#">Proyectos</a>
+                    <a class="menuFooter" href="../paginas/mobiliario.html">Mobiliario</a>
+                    <a class="menuFooter" href="../paginas/contacto.html">Contacto</a>
+                </div>
+                <div>
+                    <a class="contactoFooter" href="">arq.schweizer@gmail.com</a>
+                    <a class="contactoFooter" href="">Whatsapp: +54 11 63043869</a>
+                </div>
+                <div>
+                    <a class="linkRedes" href="">Instagram</a>
+                    <a class="linkRedes" href="">Facebook</a>
+                    <a class="linkRedes" href="https://www.linkedin.com/feed/">Linkedin</a>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="borde">
+                <p class="derechos">Estudio HS. Copyright 2024. Todos los derechos reservados.</p>
+            </div>
+        </section>
     </footer>
-    <!-- FIN FOOTER -->
+    <!-- FIN DEL FOOTER -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
 </body>
 
 </html>

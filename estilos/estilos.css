@@ -8,19 +8,14 @@
 
 a {
     text-decoration: none;
-    color: black;
 }
 
 li {
-
     list-style: none;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 500;
 }
 
-.listaMenu li {
-    margin-right: 40px;
-}
+/*HEADER*/
 
 .contenedorMenu {
     display: flex;
@@ -36,14 +31,22 @@ li {
     height: 120px;
 }
 
-.listaMenu {
-    display: flex;
-
+.listaMenu li {
+    margin-left: 15px;
 }
 
-.imagenPortada {
-    height: 795px;
+.menuLink {
+    font-family: 'Open Sans', sans-serif;
+    font-weight:600;
+    font-size: 16px;
+    color: black;
 }
+
+.menuLink:hover {
+    color: rgb(86, 86, 86);
+}
+
+/*CUERPO DE PAGINA - HOME*/
 
 .contenedorLocales {
     display: flex;
@@ -59,8 +62,6 @@ li {
     background-color: rgb(235, 235, 235);
     margin-top: 30px;
 }
-
-
 
 .textoTituloImagen {
     font-family: 'Open Sans', sans-serif;
@@ -92,17 +93,13 @@ li {
     margin-right: 150px;
 }
 
-
-
-
 .tituloPagina {
     font-family: 'Open Sans', sans-serif;
     font-size: 60px;
     font-weight: 50;
     text-align: center;
+    margin-bottom: 50px;
 }
-
-
 
 .imagenLocalSM {
     height: 570px;
@@ -123,11 +120,6 @@ li {
     margin-top: 50PX;
 }
 
-@media (max-width: 500px) {
-    .contenedorExperiencia {
-        background-color: red;
-    }
-}
 
 
 .subtituloIndex {
@@ -164,76 +156,140 @@ li {
     color: rgb(255, 255, 255)
 }
 
+/*FOOTER*/
 
+.Footer {
+    background-color: black;
+    margin-top: 30px;
+    padding: 5px;
+}
 
-.footer {
-    background-color: rgb(0, 0, 0);
-    margin-top: 100px;
+@media (max-width: 500px) {
+    .contenedorFooter {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenedorMenu {
+        display: flex;
+        justify-content: center;
+
+    }
+}
+
+.contenedorFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .footerLogo {
-    height: 110px;
-    margin-top: 60px;
-    margin-left: 120px;
+    height: 120px;
 }
 
-.footerContactanos {
-    font-family: 'Open Sans', sans-serif;
+.menuFooter {
     color: rgb(255, 255, 255);
-    font-size: 20px;
-    font-weight: 500;
-    text-align: right;
-    margin-right: 120px;
-}
-
-.footerLista {
-    display: block;
-    font-family: 'Open Sans', sans-serif;
+    display: flex;
     font-weight: 100;
-    font-size: 15px;
-    text-align: right;
-    color: rgb(255, 255, 255);
-    margin-right: 120px;
     margin-top: 8px;
 }
+
+.menuFooter:hover{
+    color: rgb(197, 197, 197);
+}
+
+
+.contactoFooter {
+    color: white;
+    display: flex;
+    margin-top: 8px;
+    font-weight: 100;
+}
+
+.contactoFooter:hover{
+    color: rgb(197, 197, 197);
+}
+
+.linkRedes {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    text-align: right;
+    color: rgb(255, 255, 255);
+    display: flex;
+    margin-top: 8px;
+}
+
+.linkRedes:hover{
+    color: rgb(197, 197, 197);
+}
+
+.borde {
+    border-top: 1px solid white;
+}
+.derechos {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 0%;
+    margin-top: 5px;
+
+}
+
+/*CUERPO DE PAGINA - ESTUDIO*/
 
 .textoEstudio {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: 200;
     text-align: center;
-    margin-left: 350px;
-    margin-right: 350px;
+    margin-left: 400px;
+    margin-right: 400px;
 }
 
 .subtituloEstudio {
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
-.imagenLocal {
-    height: 280px;
-}
+/*CUERPO DE PAGINA - PROYECTO*/
+
 
 .imagenMobiliario {
     height: 275px;
     margin-bottom: 60px;
 }
 
+/*
 .cajaGaleria {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     row-gap: 20px;
     column-gap: 5px;
     justify-items: center;
+    margin-top: 50PX;
 }
-
-.cajaImagen {
+*/
+.contenedorGaleria {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    padding: 5px;
 }
+
+.comentariosImagenes{
+    padding-left: 0%;
+}
+
 
 .comentarioSuperiorImagen {
     font-family: 'Open Sans', sans-serif;
@@ -246,7 +302,10 @@ li {
     font-weight: 100;
     font-size: 13px;
     color: rgb(118, 118, 118);
+    
 }
+
+/*CUERPO DE PAGINA - CONTACTANOS*/
 
 .tituloContactanos {
     font-family: 'Open Sans', sans-serif;
@@ -297,11 +356,4 @@ li {
     font-family: 'Open Sans', sans-serif;
     height: 30px;
     font-weight: 100;
-}
-
-.grillaInicio {
-    display: grid;
-    grid-template-areas:
-        "header header header header"
-        "main main main main";
 }
