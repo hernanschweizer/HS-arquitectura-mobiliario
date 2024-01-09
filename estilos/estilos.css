@@ -37,7 +37,7 @@ li {
 
 .menuLink {
     font-family: 'Open Sans', sans-serif;
-    font-weight:600;
+    font-weight: 600;
     font-size: 16px;
     color: black;
 }
@@ -164,18 +164,7 @@ li {
     padding: 5px;
 }
 
-@media (max-width: 500px) {
-    .contenedorFooter {
-        display: flex;
-        flex-direction: column;
-    }
 
-    .contenedorMenu {
-        display: flex;
-        justify-content: center;
-
-    }
-}
 
 .contenedorFooter {
     display: flex;
@@ -199,7 +188,7 @@ li {
     margin-top: 8px;
 }
 
-.menuFooter:hover{
+.menuFooter:hover {
     color: rgb(197, 197, 197);
 }
 
@@ -211,7 +200,7 @@ li {
     font-weight: 100;
 }
 
-.contactoFooter:hover{
+.contactoFooter:hover {
     color: rgb(197, 197, 197);
 }
 
@@ -224,13 +213,14 @@ li {
     margin-top: 8px;
 }
 
-.linkRedes:hover{
+.linkRedes:hover {
     color: rgb(197, 197, 197);
 }
 
 .borde {
     border-top: 1px solid white;
 }
+
 .derechos {
     font-family: 'Open Sans', sans-serif;
     font-weight: 100;
@@ -286,7 +276,7 @@ li {
     padding: 5px;
 }
 
-.comentariosImagenes{
+.comentariosImagenes {
     padding-left: 0%;
 }
 
@@ -302,7 +292,7 @@ li {
     font-weight: 100;
     font-size: 13px;
     color: rgb(118, 118, 118);
-    
+
 }
 
 /*CUERPO DE PAGINA - CONTACTANOS*/
@@ -356,4 +346,31 @@ li {
     font-family: 'Open Sans', sans-serif;
     height: 30px;
     font-weight: 100;
+}
+
+/*MEDIA-QUERIES*/
+
+@media (max-width: 500px) {
+    .contenedorFooter {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenedorMenu {
+        display: flex;
+        justify-content: center;
+    }
+
+    .textoEstudio {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+
+@media (min-width: 501px) and (max-width:1024px) {
+
+    .textoEstudio {
+        margin-left: 150px;
+        margin-right: 150px;
+    }
 }
