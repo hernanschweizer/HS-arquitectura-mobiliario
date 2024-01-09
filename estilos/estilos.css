@@ -31,8 +31,13 @@ li {
     height: 120px;
 }
 
-.listaMenu li {
+.listaMenu{
     margin-left: 12px;
+    display: flex;
+}
+
+.listaMenu li {
+    margin-right: 40px;
 }
 
 .menuLink {
@@ -40,6 +45,7 @@ li {
     font-weight: 600;
     font-size: 16px;
     color: black;
+    
 }
 
 .menuLink:hover {
@@ -359,12 +365,23 @@ li {
     .contenedorMenu {
         display: flex;
         justify-content: center;
+        flex-direction: column;
     }
 
     .textoEstudio {
         margin-left: 5px;
         margin-right: 5px;
     }
+
+    .listaMenu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+
+
 }
 
 @media (min-width: 501px) and (max-width:1024px) {
