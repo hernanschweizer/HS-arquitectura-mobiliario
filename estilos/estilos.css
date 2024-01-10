@@ -162,8 +162,6 @@ li {
     padding: 5px;
 }
 
-
-
 .contenedorFooter {
     display: flex;
     justify-content: space-between;
@@ -189,7 +187,6 @@ li {
 .menuFooter:hover {
     color: rgb(197, 197, 197);
 }
-
 
 .contactoFooter {
     color: white;
@@ -257,16 +254,6 @@ li {
     margin-bottom: 60px;
 }
 
-/*
-.cajaGaleria {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    row-gap: 20px;
-    column-gap: 5px;
-    justify-items: center;
-    margin-top: 50PX;
-}
-*/
 .contenedorGaleria {
     display: flex;
     flex-direction: column;
@@ -294,58 +281,63 @@ li {
 
 /*CUERPO DE PAGINA - CONTACTANOS*/
 
-.tituloContactanos {
-    font-family: 'Open Sans', sans-serif;
-    text-align: center;
-    font-size: 40px;
-}
-
-.textoContacto {
-    font-family: 'Open Sans', sans-serif;
+.contactoLista p {
+    display: flex;
+    justify-content: center;
     font-size: 18px;
-    font-weight: 200;
-    text-align: center;
-    margin-left: 350px;
-    margin-right: 350px;
+    font-weight: 400;
 }
 
-.contactoLista {
-    display: block;
+.textoContacto p {
+    display: flex;
+    justify-content: center;
+    margin-left: 500px;
+    margin-right: 500px;
+    font-family: 'Open Sans', sans-serif;
     text-align: center;
     font-size: 18px;
     font-weight: 200;
+
+}
+
+.formularios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .formularioContacto {
     width: 500px;
     height: 50px;
-    margin-top: 20px;
-    margin-left: 500px;
-
+    margin-top: 20px
 }
 
 .formularioContactoMensaje {
     width: 500px;
     height: 200px;
     margin-top: 20px;
-    margin-left: 500px;
-
 }
 
 .botonEnviar {
     height: 50px;
-    width: 180px;
-    margin-left: 500px;
+    width: 250px;
     margin-top: 20px;
 }
 
 .dondeEncontrarnos {
     font-family: 'Open Sans', sans-serif;
-    height: 30px;
     font-weight: 100;
+    font-size: 40px;
     text-align: center;
+    margin-top: 50px;
 }
 
+.ubicacionMapa {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
 
 /*MEDIA-QUERIES*/
 
@@ -376,7 +368,7 @@ li {
         text-align: center;
     }
 
-    .menuFooter{
+    .menuFooter {
         text-align: center;
     }
 
