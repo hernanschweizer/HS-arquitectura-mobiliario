@@ -1,0 +1,41 @@
+@media (max-width: 499px) {
+    .contenedorFooter {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenedorMenu {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .listaMenu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .menuLink {
+        text-align: center;
+    }
+
+    .menuFooter {
+        text-align: center;
+    }
+
+    .mensajeEstudio {
+    margin-left: 5px;
+    margin-left: 5px;
+    }
+
+}
+
+
+@media (min-width: 501px) and (max-width:1024px) {
+
+    .mensajeEstudio {
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+}

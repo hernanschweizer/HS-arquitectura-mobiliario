@@ -1,0 +1,64 @@
+.contactoLista {
+    p {
+        display: flex;
+        justify-content: center;
+        font-size: 18px;
+        font-weight: 400
+    }
+}
+
+.textoContacto {
+    p {
+        display: flex;
+        justify-content: center;
+        margin-left: 500px;
+        margin-right: 500px;
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 200;
+    }
+}
+
+.formularios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    div {
+        .formularioContacto {
+            width: 500px;
+            height: 50px;
+            margin-top: 20px
+        }
+    }
+
+    div {
+        .formularioContactoMensaje {
+            width: 500px;
+            height: 200px;
+            margin-top: 20px;
+        }
+    }
+
+    .botonEnviar {
+        height: 50px;
+        width: 250px;
+        margin-top: 20px;
+    }
+}
+
+.dondeEncontrarnos {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.ubicacionMapa {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}

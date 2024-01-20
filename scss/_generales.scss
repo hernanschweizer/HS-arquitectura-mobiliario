@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.tituloPagina {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 60px;
+    font-weight: 50;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.menuLink {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: black;
+}
+
+.menuLink:hover {
+    color: rgb(86, 86, 86);
+}
