@@ -1,20 +1,19 @@
 .contenedorGaleria {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    flex-direction: map-get($flexbox, columna);
     padding: 5px;
 
     .comentariosImagenes {
         padding-left: 0%;
 
         .comentarioSuperiorImagen {
-            font-family: 'Open Sans', sans-serif;
+            font-family: $tipografiaPrincipal;
             font-weight: 800;
             font-size: 15px;
         }
 
         .comentarioInferiorImagen {
-            font-family: 'Open Sans', sans-serif;
+            font-family: $tipografiaPrincipal;
             font-weight: 100;
             font-size: 13px;
             color: rgb(118, 118, 118);

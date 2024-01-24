@@ -1,12 +1,12 @@
 .contenedorLocales {
     display: flex;
-    align-items: center;
+    align-items: map-get($flexbox, alinearVertical);
     background-color: rgb(235, 235, 235);
     margin-top: 50px;
 
     div {
         .textoTituloImagen {
-            font-family: 'Open Sans', sans-serif;
+            font-family: $tipografiaPrincipal;
             font-size: 60px;
             font-weight: 100;
             color: rgb(0, 0, 0);
@@ -16,12 +16,12 @@
         }
 
         .textoImagenLocal {
-            font-family: 'Open Sans', sans-serif;
+            font-family: $tipografiaPrincipal;
             font-size: 17px;
             font-weight: 100;
             color: rgb(0, 0, 0);
-            margin-top: 10px;
             margin-left: 20px;
+            margin-top: 10px;
             margin-right: 150px;
         }
     }
@@ -33,7 +33,7 @@
 
 .contenedorMuebles {
     display: flex;
-    align-items: center;
+    align-items: map-get($flexbox, alinearVertical);
     background-color: rgb(235, 235, 235);
     margin-top: 30px;
 
@@ -44,7 +44,7 @@
     div {
 
         .textoTituloImagen {
-            font-family: 'Open Sans', sans-serif;
+            font-family: $tipografiaPrincipal;
             font-size: 60px;
             font-weight: 100;
             color: rgb(0, 0, 0);
@@ -54,7 +54,7 @@
         }
 
         .textoImagenMueble {
-            font-family: 'Open Sans', sans-serif;
+            font-family: $tipografiaPrincipal;
             font-size: 17px;
             font-weight: 100;
             color: rgb(0, 0, 0);
@@ -71,7 +71,7 @@
 
     .subtituloIndex {
         font-weight: 200;
-        font-family: 'Open Sans', sans-serif;
+        font-family: $tipografiaPrincipal;
         font-size: 50px;
         text-align: center;
         padding: 50px;
@@ -79,7 +79,7 @@
     }
 
     .textoExperiencia {
-        font-family: 'Open Sans', sans-serif;
+        font-family: $tipografiaPrincipal;
         font-size: 18PX;
         text-align: center;
         font-weight: 300;
@@ -90,12 +90,12 @@
 
     .contenedorSobreNosotros {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: map-get($flexbox, espaciadoHorizontalIgual);
         padding: 50PX;
 
         div {
             .experienciaTitulo {
-                font-family: 'Open Sans', sans-serif;
+                font-family: $tipografiaPrincipal;
                 font-weight: 100;
                 text-align: center;
                 font-size: 75px;
@@ -103,7 +103,7 @@
             }
 
             .experienciaSubtitulo {
-                font-family: 'Open Sans', sans-serif;
+                font-family: $tipografiaPrincipal;
                 text-align: center;
                 font-weight: 300;
                 color: rgb(255, 255, 255)

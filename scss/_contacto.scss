@@ -1,7 +1,7 @@
 .contactoLista {
     p {
         display: flex;
-        justify-content: center;
+        justify-content: map-get($flexbox, alinearHorizontal);
         font-size: 18px;
         font-weight: 400
     }
@@ -9,11 +9,9 @@
 
 .textoContacto {
     p {
-        display: flex;
-        justify-content: center;
         margin-left: 500px;
         margin-right: 500px;
-        font-family: 'Open Sans', sans-serif;
+        font-family: $tipografiaPrincipal;
         text-align: center;
         font-size: 18px;
         font-weight: 200;
@@ -22,7 +20,7 @@
 
 .formularios {
     display: flex;
-    flex-direction: column;
+    flex-direction: map-get($flexbox, columna);
     align-items: center;
 
     div {
@@ -35,9 +33,8 @@
 
     div {
         .formularioContactoMensaje {
-            width: 500px;
+            @extend .formularioContacto;
             height: 200px;
-            margin-top: 20px;
         }
     }
 
@@ -49,7 +46,7 @@
 }
 
 .dondeEncontrarnos {
-    font-family: 'Open Sans', sans-serif;
+    font-family: $tipografiaPrincipal;
     font-weight: 100;
     font-size: 40px;
     text-align: center;
@@ -58,7 +55,7 @@
 
 .ubicacionMapa {
     display: flex;
-    justify-content: center;
+    justify-content: map-get($flexbox, alinearHorizontal);
     margin-top: 30px;
     margin-bottom: 50px;
 }

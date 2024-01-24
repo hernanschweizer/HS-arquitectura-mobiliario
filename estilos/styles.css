@@ -22,39 +22,15 @@ li {
   margin-bottom: 50px;
 }
 
-.menuLink {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 600;
-  font-size: 16px;
-  color: black;
-}
-
-.menuLink:hover {
-  color: rgb(86, 86, 86);
-}
-
 @media (max-width: 499px) {
   .contenedorFooter {
     display: flex;
     flex-direction: column;
   }
-  .contenedorMenu {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-  }
-  .listaMenu {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .menuLink {
-    text-align: center;
-  }
   .menuFooter {
     text-align: center;
   }
-  .mensajeEstudio {
+  .mensajeEstudio p {
     margin-left: 5px;
     margin-left: 5px;
   }
@@ -76,16 +52,14 @@ li {
 .contenedorMenu div .imagenLogo {
   height: 120px;
 }
-.contenedorMenu nav .listaMenu {
-  margin-right: 10px;
-}
-.contenedorMenu nav .listaMenu li .menuLink {
+.contenedorMenu li .menuLink {
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
   font-size: 16px;
   color: black;
+  margin-left: 15px;
 }
-.contenedorMenu nav .listaMenu li .menuLink:hover {
+.contenedorMenu li .menuLink:hover {
   color: rgb(86, 86, 86);
 }
 
@@ -95,6 +69,7 @@ li {
   padding: 5px;
 }
 .Footer .contenedorFooter {
+  display: flex;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -169,8 +144,8 @@ li {
   font-size: 17px;
   font-weight: 100;
   color: rgb(0, 0, 0);
-  margin-top: 10px;
   margin-left: 20px;
+  margin-top: 10px;
   margin-right: 150px;
 }
 .contenedorLocales .imagenLocalSM {
@@ -248,7 +223,6 @@ li {
 .contenedorGaleria {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
   padding: 5px;
 }
 .contenedorGaleria .comentariosImagenes {
@@ -269,7 +243,6 @@ li {
 .contenedorGaleria {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
   padding: 5px;
 }
 .contenedorGaleria .comentariosImagenes {
@@ -295,7 +268,7 @@ div .subtituloEstudio {
   margin-top: 30px;
 }
 
-div .mensajeEstudio {
+.mensajeEstudio p {
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
   font-weight: 200;
@@ -312,8 +285,6 @@ div .mensajeEstudio {
 }
 
 .textoContacto p {
-  display: flex;
-  justify-content: center;
   margin-left: 500px;
   margin-right: 500px;
   font-family: "Open Sans", sans-serif;
@@ -327,15 +298,13 @@ div .mensajeEstudio {
   flex-direction: column;
   align-items: center;
 }
-.formularios div .formularioContacto {
+.formularios div .formularioContacto, .formularios div .formularioContactoMensaje {
   width: 500px;
   height: 50px;
   margin-top: 20px;
 }
 .formularios div .formularioContactoMensaje {
-  width: 500px;
   height: 200px;
-  margin-top: 20px;
 }
 .formularios .botonEnviar {
   height: 50px;

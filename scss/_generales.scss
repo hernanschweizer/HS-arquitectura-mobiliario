@@ -12,24 +12,13 @@ a {
 
 li {
     list-style: none;
-    font-family: 'Open Sans', sans-serif;
+    font-family: $tipografiaPrincipal;
 }
 
 .tituloPagina {
-    font-family: 'Open Sans', sans-serif;
+    font-family: $tipografiaPrincipal;
     font-size: 60px;
     font-weight: 50;
     text-align: center;
     margin-bottom: 50px;
-}
-
-.menuLink {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-    font-size: 16px;
-    color: black;
-}
-
-.menuLink:hover {
-    color: rgb(86, 86, 86);
 }
