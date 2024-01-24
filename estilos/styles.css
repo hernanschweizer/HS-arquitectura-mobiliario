@@ -34,6 +34,14 @@ li {
     margin-left: 1px;
     margin-left: 1px;
   }
+  .contenedorLocales {
+    display: flex;
+    flex-direction: column;
+  }
+  .contenedorMuebles {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }
 .contenedorMenu {
   display: flex;
@@ -142,9 +150,6 @@ li {
   margin-top: 10px;
   margin-right: 150px;
 }
-.contenedorLocales .imagenLocalSM {
-  height: 570px;
-}
 
 .contenedorMuebles {
   display: flex;
@@ -152,10 +157,8 @@ li {
   background-color: rgb(235, 235, 235);
   margin-top: 30px;
 }
-.contenedorMuebles .imagenOficina {
-  height: 570px;
-}
-.contenedorMuebles div .textoTituloImagen {
+
+div .textoTituloImagen {
   font-family: "Open Sans", sans-serif;
   font-size: 60px;
   font-weight: 100;
@@ -164,7 +167,7 @@ li {
   margin-right: 150px;
   margin-bottom: 40px;
 }
-.contenedorMuebles div .textoImagenMueble {
+div .textoImagenMueble {
   font-family: "Open Sans", sans-serif;
   font-size: 17px;
   font-weight: 100;
