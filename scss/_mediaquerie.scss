@@ -14,14 +14,40 @@
         margin-left: 1px;
     }
 
-    .contenedorLocales{
+    .contenedorLocales {
         display: flex;
         flex-direction: column;
     }
 
-    .contenedorMuebles{
+    .contenedorMuebles {
         display: flex;
         flex-direction: column-reverse;
     }
 
+    .contenedorExperiencia {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contenedorSobreNosotros {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .textoExperiencia {
+        text-align: center;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .textoTituloImagen {
+        font-size: 0px;
+    }
+
+    .textoContacto p {
+        margin-right: 3px;
+        margin-left: 3px;
+    }
 }
