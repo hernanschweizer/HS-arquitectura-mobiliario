@@ -9,9 +9,8 @@
         text-align: center;
     }
 
-    .mensajeEstudio p {
-        margin-left: 1px;
-        margin-left: 1px;
+    .relatoEstudio p {
+        padding: 0%;
     }
 
     .contenedorLocales {
@@ -22,6 +21,11 @@
     .contenedorMuebles {
         display: flex;
         flex-direction: column-reverse;
+    }
+
+    .misionContenedor {
+        display: flex;
+        flex-direction: column
     }
 
     .contenedorExperiencia {
@@ -49,5 +53,9 @@
     .textoContacto p {
         margin-right: 3px;
         margin-left: 3px;
+    }
+
+    .menuHamburguesa{
+        margin-right: 50px;
     }
 }

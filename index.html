@@ -9,6 +9,7 @@
     <meta name="keywords" content="arquitectura de interiores, mobiliario personalizado, locales comerciales">
     <title>HS Arquitectura</title>
     <link rel="shortcut icon" href="./imagenes/LOGO.JPG" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="./estilos/styles.css">
@@ -16,18 +17,17 @@
 
 <body>
     <!-- HEADER -->
-    <header class="contenedorMenu">
-        <div>
-            <img class="imagenLogo" src="./imagenes/LOGO.JPG" alt="Logo HS">
-        </div>
+    <header>
         <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="container-fluid contenedorMenu">
+                <img class="imagenLogo" src="./imagenes/LOGO.JPG" alt="Logo HS">
+                <button class="navbar-toggler menuHamburguesa" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav menuLinkContenedor">
                         <li class="nav-item">
                             <a class="nav-link menuLink" href="#">Home</a>
                         </li>
@@ -76,7 +76,7 @@
         </div>
         <section>
             <div class="contenedorLocales">
-                <div>
+                <div data-aos="fade-up" data-aos-duration="7000">
                     <h1 class="textoTituloImagen">
                         DISEÑAMOS LOCALES
                     </h1>
@@ -86,24 +86,27 @@
                             definiendo
                             junto a vos las ideas que lleven a lograr el maximo potencial de ventas de tu espacio.
                         </p>
-                        <P class="textoImagenLocal"> Creamos espacios prácticos y funcionales, capaces de guiar la
+                        <P class="textoImagenLocal"> Creamos espacios
+                            prácticos y funcionales, capaces de guiar la
                             mirada
                             y los pasos de los
                             visitantes a través de un recorrido cuidadosamente estudiado.
                         </P>
-                        <p class="textoImagenLocal">Trabajamos con marcas nuevas o ya consolidadas en proyectos de
+                        <p class="textoImagenLocal">Trabajamos con marcas
+                            nuevas o ya consolidadas en proyectos de
                             expansión al modelo de
                             franquicias.
                         </p>
                     </div>
                 </div>
-                <img src="./imagenes/8b23c981-bbda-4835-91c7-8a06a5a60b9a.JPG" class="img-fluid"
+                <img data-aos="fade-up" data-aos-duration="7000"
+                    src="./imagenes/8b23c981-bbda-4835-91c7-8a06a5a60b9a.JPG" class="img-fluid"
                     alt="Imagen Local, San Martin de Los Andes">
             </div>
             <div class="contenedorMuebles">
-                <img src="./imagenes/MUEBLE OFICINA.jpg" class="img-fluid imagenIndex"
-                    alt="Imagen Mueble, Oficina Ejecutiva">
-                <div>
+                <img data-aos="fade-up" data-aos-duration="7000" src="./imagenes/MUEBLE OFICINA.jpg"
+                    class="img-fluid imagenIndex" alt="Imagen Mueble, Oficina Ejecutiva">
+                <div data-aos="fade-up" data-aos-duration="7000">
                     <h2 class="textoTituloImagen">
                         DISEÑAMOS MOBILIARIO
                     </h2>
@@ -112,7 +115,7 @@
                         aportando siempre
                         soluciones esteticas y funcionales.
                     </p>
-                    <p class="textoImagenMueble"> 
+                    <p class="textoImagenMueble">
                         Entendemos que cada espacio es único, al igual que las personas que lo habitan. Por eso, nos
                         especializamos en crear piezas unicas que se adapten
                         perfectamente a tus necesidades y estilo de vida.
@@ -128,15 +131,16 @@
                     siempre estar cerca de cada detalle durante el proceso de diseño. </P>
                 <div class="contenedorSobreNosotros">
                     <div>
-                        <h4 class="experienciaTitulo">+ 7</h4>
-                        <p class="experienciaSubtitulo">años de experiencia</p>
+                        <h4 data-aos="zoom-in" data-aos-duration="4000" class="experienciaTitulo">+ 7</h4>
+                        <p class="experienciaSubtitulo">años de experiencia
+                        </p>
                     </div>
                     <div>
-                        <h4 class="experienciaTitulo">+ 70</h4>
+                        <h4 data-aos="zoom-in" data-aos-duration="4000" class="experienciaTitulo">+ 70</h4>
                         <p class="experienciaSubtitulo">proyectos realizados</p>
                     </div>
                     <div>
-                        <h4 class="experienciaTitulo">+ 70</h4>
+                        <h4 data-aos="zoom-in" data-aos-duration="4000" class="experienciaTitulo">+ 70</h4>
                         <p class="experienciaSubtitulo">clientes satisfechos</p>
                     </div>
                 </div>
@@ -183,6 +187,10 @@
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

@@ -30,9 +30,8 @@ li {
   .menuFooter {
     text-align: center;
   }
-  .mensajeEstudio p {
-    margin-left: 1px;
-    margin-left: 1px;
+  .relatoEstudio p {
+    padding: 0%;
   }
   .contenedorLocales {
     display: flex;
@@ -41,6 +40,10 @@ li {
   .contenedorMuebles {
     display: flex;
     flex-direction: column-reverse;
+  }
+  .misionContenedor {
+    display: flex;
+    flex-direction: column;
   }
   .contenedorExperiencia {
     display: flex;
@@ -64,27 +67,55 @@ li {
     margin-right: 3px;
     margin-left: 3px;
   }
+  .menuHamburguesa {
+    margin-right: 50px;
+  }
 }
-.contenedorMenu {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px;
-  margin-left: 50px;
-  margin-right: 50px;
-}
-.contenedorMenu div .imagenLogo {
+/*.contenedorMenu {
+    display: flex;
+    justify-content: map-get($flexbox, espaciadoHorizontal);
+    align-items: center;
+    padding: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+
+    div {
+        .imagenLogo {
+            height: 120px;
+        }
+    }
+
+    li {
+        .menuLink {
+            font-family: $tipografiaPrincipal;
+            font-weight: 600;
+            font-size: 16px;
+            color: black;
+            margin-left: 15px;
+
+            &:hover {
+                transform: scale(1.1, 1.1);
+            }
+        }
+    }
+}*/
+.contenedorMenu .imagenLogo {
   height: 120px;
+  margin-left: 50px;
 }
-.contenedorMenu li .menuLink {
+.contenedorMenu .menuLinkContenedor {
+  margin-left: 50px;
+}
+.contenedorMenu .menuLinkContenedor li .menuLink {
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
   font-size: 16px;
   color: black;
   margin-left: 15px;
 }
-.contenedorMenu li .menuLink:hover {
-  transform: scale(1.1, 1.1);
+.contenedorMenu .menuLinkContenedor li .menuLink:hover {
+  color: rgb(116, 116, 116);
 }
 
 .Footer {
@@ -285,13 +316,38 @@ div .subtituloEstudio {
   margin-top: 30px;
 }
 
-.mensajeEstudio p {
+.relatoEstudio {
+  padding: 2rem;
+}
+.relatoEstudio p {
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
   font-weight: 200;
   text-align: center;
+}
+
+.misionContenedor {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  background: linear-gradient(rgb(237, 237, 237), white);
+}
+.misionContenedor div .misionTitulo {
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px;
+  text-align: start;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.misionContenedor div div .misionParrafo {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+  margin-left: 20px;
+  margin-top: 10px;
   margin-right: 50px;
-  margin-left: 50px;
 }
 
 .contactoLista p {
