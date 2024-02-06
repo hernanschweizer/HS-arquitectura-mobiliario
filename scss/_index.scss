@@ -1,7 +1,7 @@
 .contenedorLocales {
     display: flex;
     align-items: map-get($flexbox, alinearVertical);
-    background-color: rgb(235, 235, 235);
+    background: linear-gradient(rgb(237, 237, 237), white);
     margin-top: 50px;
 
     div {
@@ -30,7 +30,7 @@
 .contenedorMuebles {
     display: flex;
     align-items: map-get($flexbox, alinearVertical);
-    background-color: rgb(235, 235, 235);
+    background: linear-gradient(rgb(237, 237, 237), white);
     margin-top: 30px;
 }
 
